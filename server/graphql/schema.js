@@ -1,6 +1,6 @@
 const { GraphQLSchema, GraphQLObjectType, GraphQLID } = require('graphql');
 const { UserType, PostType, CommentType, AdvertisementType } = require('./typeDefs.js');
-const Mutation = require('./index.js');
+const Mutation = require('./Mutations/index.js');
 const User= require('../models/user.model.js');
 const Post= require('../models/post.model.js');
 const Comment= require('../models/comment.model.js');

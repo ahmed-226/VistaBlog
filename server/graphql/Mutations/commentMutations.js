@@ -1,6 +1,6 @@
 const { GraphQLObjectType, GraphQLString, GraphQLID, GraphQLList } = require('graphql');
-const { CommentType } = require('./typeDefs.js');
-const Comment = require('../models/comment.model.js');
+const { CommentType } = require('../typeDefs.js');
+const Comment = require('../../models/comment.model.js');
 
 
 const createComment = {

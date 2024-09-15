@@ -1,6 +1,6 @@
 const { GraphQLObjectType, GraphQLString, GraphQLID, GraphQLList } = require('graphql');
-const { UserType } = require('./typeDefs.js');
-const User = require('../models/user.model.js');
+const { UserType } = require('../typeDefs.js');
+const User = require('../../models/user.model.js');
 
 
 

@@ -1,6 +1,6 @@
 const { GraphQLObjectType, GraphQLString, GraphQLID, GraphQLList } = require('graphql');
-const { PostType } = require('./typeDefs.js');
-const Post = require('../models/post.model.js');
+const { PostType } = require('../typeDefs.js');
+const Post = require('../../models/post.model.js');
 
 
 const createPost = {
